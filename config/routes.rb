@@ -1,4 +1,9 @@
 Unlinked::Application.routes.draw do
+  resources :side_hustles
+
+
+  devise_for :users
+
   root :to => 'pages#home'
   get 'about' => 'pages#about'
 

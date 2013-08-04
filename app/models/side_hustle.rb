@@ -1,0 +1,3 @@
+class SideHustle < ActiveRecord::Base
+  attr_accessible :description
+end
